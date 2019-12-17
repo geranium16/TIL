@@ -55,6 +55,8 @@
 
 - `git remote` : 원격 관리 대부분의 시작
 - `git remote add origin 주소` : origin 첫ㅎ번째 저장소 이름 origin  위치에 아무 이름 써도된다. 원래   add 이름+ 주소  //프로젝트가 커지면 repository가 많아진다.
+  - remote 여러개로 지정해도 된다. 그냥 이름만 다른 것이다. 리모컨이 여러개인 것
+  - git remote -v로 확인가능
 - git remote -v : 확인
 - git push origin master : 올리기
 - //origin = 버전이름이다. 새로 올리때마다 버전을 다르게 한다.
