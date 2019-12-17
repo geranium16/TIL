@@ -25,6 +25,9 @@
 - `git add [파일명]`: 사진대에 파일을 올린다. --버전관리시작
 -  `git config --global user.email "geranium16@naver.com"`
 - `git config --global user.name "DaeHyeon Park"`
+
+---------여기까지 초기설정
+
 - 확인법: git config --global user.name or user.email
 - `git commit -m "first commit"`: 사진 찍기(버전만들기)
 - `git log` : 버전에 대항 정보가 나온다.
@@ -51,6 +54,7 @@
 - `git remote add origin 주소` : origin 첫ㅎ번째 저장소 이름 origin  위치에 아무 이름 써도된다. 원래 
 - git remote -v : 확인
 - git push origin master : 올리기
+- //origin = 버전이름이다. 새로 올리때마다 버전을 다르게 한다.
 
 > $ git remote add origin https://github.com/geranium16/TIL.git
 
@@ -60,7 +64,7 @@
 
 ### 파일 수정
 
-- add -> git commit -m -> git push :즉 파일을 수정해도 add 똑같다.
+- add(사진찍을 물건 준비) -> git commit -m(사진찍기)-> git remote add 버전 주소 (올릴 주소)=> git push(올리기) :즉 파일을 수정해도 add 똑같다.
 
 
 
