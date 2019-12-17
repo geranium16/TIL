@@ -11,12 +11,14 @@
 - `mkdir` [폴더명]:  ㅡmake directory + 만들고자하는 폴더명
 - `cd` [폴더명]: 폴더 변경
 - `cd ..` : 상위 폴더로
+- `cd ~` : 홈폴더
 - `TAP` : 자동완성
-- `git init` :깃으로 현재 폴더를 관리 (master 표시 뜸, .git파일이 생김)
+- `git init` :깃으로 현재 폴더를 관리 (master 표시 뜸, .git파일이 생김) //git 폴더 안에 git선언x , git폴더 안에 git은 알아서 git폴더이다.
 - `ls -a` : 숨김 파일까지 포기(git이 보임)
 - `git status` : git의 현재 상태를 물어봄 
 - `touch [파일명]` : 파일만들기 (a.txt)
 - `rm [파일명]` : 파일 지우기
+- `mv [이동할 파일] [이동할 곳]` : 파일 이동
 
 
 
