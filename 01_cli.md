@@ -25,12 +25,13 @@
 - `git add [파일명]`: 사진대에 파일을 올린다. --버전관리시작
 -  `git config --global user.email "geranium16@naver.com"`
 - `git config --global user.name "DaeHyeon Park"`
+  - 컴퓨터를 처음사용할때만 필요
 
 ---------여기까지 초기설정
 
 - 확인법: git config --global user.name or user.email
-- `git commit -m "first commit"`: 사진 찍기(버전만들기)
-- `git log` : 버전에 대항 정보가 나온다.
+- `git commit -m "first commit"`: 사진 찍기(버전만들기) message 약자
+- `git log` : 버전에 대항 정보가 나온다. (한줄: $ git log --oneline)
 - `git checkout  66d4b` : 과거로 가기
 - git checkout master : 현재로 돌아오기 
 
@@ -51,7 +52,7 @@
 ### 파일올리기
 
 - `git remote` : 원격 관리 대부분의 시작
-- `git remote add origin 주소` : origin 첫ㅎ번째 저장소 이름 origin  위치에 아무 이름 써도된다. 원래 
+- `git remote add origin 주소` : origin 첫ㅎ번째 저장소 이름 origin  위치에 아무 이름 써도된다. 원래   add 이름+ 주소  //프로젝트가 커지면 repository가 많아진다.
 - git remote -v : 확인
 - git push origin master : 올리기
 - //origin = 버전이름이다. 새로 올리때마다 버전을 다르게 한다.
@@ -64,7 +65,9 @@
 
 ### 파일 수정
 
-- add(사진찍을 물건 준비) -> git commit -m(사진찍기)-> git remote add 버전 주소 (올릴 주소)=> git push(올리기) :즉 파일을 수정해도 add 똑같다.
+- add(사진찍을 물건 준비) -> git commit -m(사진찍기)-> github repository만들기-> git remote add 버전 주소 (올릴 주소)=> git push(올리기) :즉 파일을 수정해도 add 똑같다.
+
+- `git remote rename 원래이름 바꿀이름`
 
 
 

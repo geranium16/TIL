@@ -95,7 +95,7 @@ $ touch REAME.md
 
 - 작성이 완료되면 아래의 명령어를 통해 commit 이력을 남기고 원격 저장소로 push한다.
 
-``` java
+``` shell
 $ git add README.md
 $ git commit -m "add README.md"
 $ git push origin master
@@ -113,7 +113,7 @@ $ git push origin master
 
 - `TIL` 폴더 내에서 학습을 원하는 내용의 폴더를 생성하고 파일들을 생성한 후 작업을 진행한다.
 
-``` java
+``` shell
 $ mkdir python
 ```
 
@@ -121,7 +121,7 @@ $ mkdir python
 
 - 업데이트가 완료되면 아래의 명령어를 통해 commit 이력을 남기고 원격 저장소로 push한다.
 
-``` java
+``` shell
 $ git add .
 $ git commit -m "학습 내용 추가"
 # git push origin master
