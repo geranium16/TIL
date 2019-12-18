@@ -5,7 +5,7 @@
 ### 터미널 명령어들
 
 - `ls` :  폴더 내부의 파일 & 폴더를 나열
-- `pwd` : 내 현재 위치(print working dirctory)
+  - l`pwd` : 내 현재 위치(print working dirctory)
 - `~` : 홈디렉토리,시작점 기준  c/users/student *표시
 - `git` --version 버전확인
 - `mkdir` [폴더명]:  ㅡmake directory + 만들고자하는 폴더명
@@ -19,6 +19,8 @@
 - `touch [파일명]` : 파일만들기 (a.txt)
 - `rm [파일명]` : 파일 지우기
 - `mv [이동할 파일] [이동할 곳]` : 파일 이동
+- `git add .` : 현재 폴더에 있는 모든 파일 다 넣는다.
+- 
 
 
 
