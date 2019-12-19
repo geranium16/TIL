@@ -13,7 +13,7 @@ $ python python_basic.py // 배쉬에 출력
 
 ### 1. 저장
 
-- 숫자 : double , int 나눌 필요 없다.
+- 기본 : double , int 나눌 필요 없다.
 
 ``` python
 number = 123
@@ -23,7 +23,10 @@ number_three=7.89
 # print(number_two)
 # print(number_three)
 print(f'{number} 기준 미세먼지 농도는 {number_two}이고 {dust}입니다.')
-
+numbers=int(input('숫자를 입력하세요: ')) # input은 문자열로 들어온다. 따라서 int를 써야지 정수를 받을 수 있따.
+100/3 = 33.33333
+100//33 = 33
+3**3=3^2
 ```
 
 - 글자 : 따움표로 감싸주면 문자열
@@ -107,7 +110,7 @@ while n<3:
 
 ```
 
-```
+```python
 numbers=list(range(10))
 for number in numbers:
     print(number)
